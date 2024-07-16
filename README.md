@@ -11,28 +11,28 @@ Outline of the Internship as a Cyber Security Analyst Intern
 During the internship, I was assigned projects and websites for penetration testing. In Week 1, I explored and understood various tools for information gathering, which are crucial for the reconnaissance phase of penetration testing.
 
 Tools for Information Gathering
-# Day 1: Basic Tools
+## Day 1: Basic Tools
 
 1. Epieos: A tool for gathering email-related information, useful for identifying potential phishing targets and understanding the email infrastructure of an organization.
 2. OSINT Framework: A comprehensive framework for open-source intelligence gathering. It provides a collection of resources and tools for various types of OSINT investigations.
-# Day 2: Specialized Tools
+## Day 2: Specialized Tools
 3. Facecheck.id: A facial recognition and search tool that helps identify individuals by scanning social media and other online platforms. Useful for gathering personal information in social engineering attacks. Facecheck.id Reference
 4. Google Dorks: Techniques for using Google search operators to find specific information, such as exposed documents, login portals, and sensitive information indexed by search engines. Google Dorks Reference
 
-# Day 3: Internet Tools
+## Day 3: Internet Tools
 5. Shodan Dorks: Techniques for using Shodan search engine to find exposed devices and services on the internet. It is particularly useful for identifying vulnerable IoT devices and open ports. Shodan Reference
 6. Whois/Whois.sc/Domaintools/Drwhois: Tools for domain registration and owner information, providing insights into who owns a domain, their contact details, and the domain’s history. Whois Reference
 
-# Day 4: Comprehensive Platforms
+## Day 4: Comprehensive Platforms
 7. Netcraft: Tool for analyzing websites and gathering various information, including hosting details, SSL certificates, and phishing site detection. Netcraft Reference
 8. Robtex: A tool for DNS and IP lookups, providing detailed information about DNS records, IP addresses, and associated domains. Robtex Reference
 
-# Day 5: Person Search and Data Aggregation
+## Day 5: Person Search and Data Aggregation
 9. SynapsInt: A tool for social media and deep web searches, helping to gather information about individuals from various online platforms. SynapsInt Reference
 10. Sherlock: Tool for finding usernames across multiple social media platforms, useful for gathering information about an individual’s online presence. Sherlock Reference
 11. Infooze: Aggregator of public information from various sources, useful for gathering comprehensive data about individuals or organizations. Infooze Reference
 
-# Day 6: Website Analysis Tools
+## Day 6: Website Analysis Tools
 12. Wappalyzer: Browser extension for identifying technologies used on websites, such as CMS, frameworks, and libraries. Wappalyzer Reference
 13. Shodan Extension: Browser extension for quick Shodan searches, enabling immediate identification of exposed devices and services while browsing. Shodan Extension Reference
 14. Website Informer: Tool for gathering information about websites, including traffic statistics, technology stack, and domain details. Website Informer Reference
@@ -41,7 +41,7 @@ Tools for Information Gathering
 17. Nslookup/Reverse Nslookup: Tools for querying DNS records and performing reverse DNS lookups to find domain names associated with IP addresses. Nslookup Reference
 18. ViewDNS.info: Comprehensive tool for various DNS and IP lookups, including reverse DNS, WHOIS, and DNS propagation checks. ViewDNS.info Reference
 
-# References
+## References
 * Epieos: https://epieos.com/ 
 * OSINT Framework: https://osintframework.com/
 * Facecheck.id: https://facecheck.id/
@@ -67,7 +67,7 @@ Start Date: 20th May 2024
 Explored and Understood Various Tools on Network & Email Security
 During Week 2 of my cybersecurity internship, I delved into tools focused on network and email security. These tools are essential for conducting thorough assessments and ensuring robust security measures.
 
-# Day 1: Basic Network Tools
+## Day 1: Basic Network Tools
 1. Nmap
 
 Description: Nmap ("Network Mapper") is a powerful network scanning tool used for discovering hosts and services on a computer network, thus creating a map of the network.
@@ -85,7 +85,7 @@ Additional Information: Knowing your public IP address is essential for configur
 Description: Ipconfig (Internet Protocol Configuration) is a command-line tool available on Windows systems to display the current TCP/IP network configuration values, including IP address, subnet mask, and default gateway.
 Reference: Ipconfig Command
 Additional Information: Ipconfig helps in diagnosing network connectivity issues and verifying network settings on Windows machines.
-# Day 2: Advanced Network Tools
+## Day 2: Advanced Network Tools
 4. Netstat
 
 Description: Netstat (Network Statistics) is a command-line tool used to display network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
@@ -103,7 +103,7 @@ Additional Information: Ping is fundamental for diagnosing network connectivity 
 Description: Arp (Address Resolution Protocol) is a command-line tool used to display and modify the ARP cache, which maps IP addresses to MAC addresses on a local network segment.
 Reference: Arp Command
 Additional Information: Arp helps in troubleshooting network connectivity issues, resolving IP addresses to MAC addresses, and detecting ARP spoofing attacks.
-# Day 3: Network Tracing and Scanning Tools
+## Day 3: Network Tracing and Scanning Tools
 7. Tracert / Traceroute
 
 Description: Tracert (Windows) or Traceroute (Linux) is a command-line tool used to trace the route packets take from your computer to a destination IP address or hostname, showing each hop along the path.
@@ -120,7 +120,7 @@ Additional Information: Ping Sweep is effective for discovering live hosts quick
 Description: Angry IP Scanner is an open-source and cross-platform network scanner designed to scan IP addresses and ports, providing information about active hosts on a network.
 Reference: Angry IP Scanner
 Additional Information: Angry IP Scanner is known for its fast scanning speed and user-friendly interface, making it ideal for network administrators and security professionals.
-# Day 4: Advanced Network Scanning and Vulnerability Assessment
+## Day 4: Advanced Network Scanning and Vulnerability Assessment
 10. Advanced IP Scanner
 
 Description: Advanced IP Scanner is a free, fast, and robust network scanner for Windows that scans IP addresses and scans ports to gather information about network devices.
@@ -132,7 +132,7 @@ Additional Information: Advanced IP Scanner is used for network inventory, manag
 Description: ZENMAP is the official graphical user interface (GUI) for Nmap, providing advanced scanning capabilities, profile management, and result visualization.
 Reference: ZENMAP GUI
 Additional Information: ZENMAP simplifies the use of Nmap by offering a user-friendly interface with detailed scan results and customization options for network security audits.
-# Day 5: Vulnerability Scanning and Email Testing Tools
+## Day 5: Vulnerability Scanning and Email Testing Tools
 12. Nessus Essentials
 
 Description: Nessus Essentials is a vulnerability scanner that identifies vulnerabilities, misconfigurations, and malware across networks, providing detailed reports and prioritized remediation steps.
@@ -150,7 +150,7 @@ Additional Information: Emkei.cz is useful for testing email security measures, 
 Description: Elastic Email is an email delivery platform offering SMTP, API, and email marketing services with features for managing email campaigns and transactional emails.
 Reference: Elastic Email
 Additional Information: Elastic Email provides scalable email delivery solutions, including analytics, segmentation, and integration options for marketing and transactional emails.
-# Day 6: Email Security Analysis and Tools
+## Day 6: Email Security Analysis and Tools
 15. Anonymailer.net
 
 Description: Anonymailer.net is a service for sending anonymous emails, protecting the sender's identity and ensuring confidentiality in communication.
@@ -168,7 +168,7 @@ Additional Information: Managing blacklists and whitelists in Gmail helps in fil
 Description: Parsemail.org is a tool for parsing and analyzing email headers, extracting metadata, and identifying potential threats or anomalies in email communications.
 Reference: Parsemail.org
 Additional Information: Parsemail.org aids in forensic analysis, email troubleshooting, and detecting email spoofing or phishing attempts.
-# References
+## References
 * Nmap: https://nmap.org/
 * What is my IP: https://www.whatismyip.com/
 * Ipconfig Command: Microsoft Docs
@@ -192,7 +192,7 @@ Start Date: 27th May 2024
 Explored and Understood Various Tools on Anonymity, Password Security & Malware Threats
 During Week 3 of my cybersecurity internship, I explored tools crucial for enhancing anonymity, securing passwords, and understanding malware and its threats.
 
-# Day 1: Tools for Anonymity
+## Day 1: Tools for Anonymity
 1. Web-based Proxy
 
 Description: Web-based proxies provide a method to browse the internet anonymously by routing your traffic through a third-party server, masking your IP address.
@@ -207,7 +207,7 @@ Additional Information: Browsec enhances online privacy and security by encrypti
 
 Description: ProtonVPN is a secure VPN service that encrypts internet traffic and hides your IP address, providing anonymity and protection against online threats.
 Additional Information: It offers strong encryption and a strict no-logs policy, ensuring privacy and security while browsing the internet.
-# Day 2: Tools for Enhanced Anonymity and Security
+## Day 2: Tools for Enhanced Anonymity and Security
 4. Anonymox
 
 Description: Anonymox is a browser extension that enables anonymous browsing by changing your IP address and providing access to geo-restricted content.
@@ -222,7 +222,7 @@ Additional Information: By configuring Proxychains manually in Kali Linux, users
 
 Description: AUTO TOR is a script or automated tool that simplifies the setup and configuration of the Tor network for anonymous browsing and communication.
 Additional Information: It automates the process of configuring Tor, making it easier for users to access the Tor network securely and anonymously.
-# Day 3: Techniques for Network Anonymity and Security
+## Day 3: Techniques for Network Anonymity and Security
 7. MAC Spoofing
 
 Description: MAC Spoofing involves changing the Media Access Control (MAC) address of a network interface to impersonate another device, enhancing anonymity.
@@ -232,7 +232,7 @@ Additional Information: It can be used to bypass MAC address filtering and impro
 
 Description: SMAC (Spoof MAC Address) is a Windows-based tool for changing the MAC address of network adapters, providing anonymity and network security.
 Additional Information: SMAC supports automated MAC address changes and can spoof MAC addresses for various network adapters, enhancing privacy and security.
-# Day 4: Tools for Password Security
+## Day 4: Tools for Password Security
 9. Hydra for Web-based
 
 Description: Hydra is a password-cracking tool capable of performing brute-force attacks against various protocols, including HTTP, HTTPS, FTP, and more.
@@ -242,7 +242,7 @@ Additional Information: It is used for testing the strength of passwords and ide
 
 Description: JTR (John the Ripper) is a fast password-cracking tool used to detect weak passwords and perform dictionary attacks against hashed passwords.
 Additional Information: JTR GUI provides a graphical interface for John the Ripper, simplifying password cracking and hash analysis tasks, enhancing efficiency in password security assessments.
-# Day 5: Password Security and Analysis Tools
+## Day 5: Password Security and Analysis Tools
 11. Crackstation
 
 Description: Crackstation is an online password hash cracker and lookup service that can decrypt hashed passwords and perform password strength analysis.
@@ -252,7 +252,7 @@ Additional Information: It supports various hash algorithms and aids in identify
 
 Description: Password generators create random, strong passwords, while password strength checkers evaluate password complexity and provide recommendations for improvement.
 Additional Information: Essential for creating secure passwords and assessing password strength to prevent unauthorized access and enhance cybersecurity, ensuring robust password security practices.
-# Day 6: Tools for Malware Detection and Analysis
+## Day 6: Tools for Malware Detection and Analysis
 13. Kali Linux Bypass
 
 Description: Kali Linux Bypass techniques involve methods for bypassing security controls and gaining unauthorized access to systems, enhancing understanding of security vulnerabilities.
@@ -262,7 +262,7 @@ Additional Information: Kali Linux provides a platform for testing and evaluatin
 
 Description: Malware batch scripting involves creating malicious scripts to automate tasks, infect systems, and compromise security through social engineering attacks.
 Additional Information: Understanding malware batch scripting aids in identifying and mitigating malware threats, enhancing cybersecurity defenses against malicious code.
-# References
+## References
 * Browsec: https://browsec.com/
 * ProtonVPN: https://protonvpn.com/
 * Anonymox: https://www.anonymox.net/
@@ -277,7 +277,7 @@ Start Date: 3rd June 2024
 Explored and Understood Various Tools on Sniffing, Wireless Security & Website Security
 During Week 4 of my cybersecurity internship, I explored tools essential for network sniffing, wireless security assessments, and enhancing website security.
 
-# Day 1: Tools for Network Sniffing
+## Day 1: Tools for Network Sniffing
 1. Wireshark (Basics)
 
 Description: Wireshark is a widely-used network protocol analyzer that allows you to capture and interactively browse the traffic running on a computer network.
@@ -291,7 +291,7 @@ Description: ngrep and tcpdump are command-line tools used for network packet ca
 Additional Information:
 Usage: ngrep allows for pattern matching within packet payloads, making it useful for extracting specific information from network traffic.
 tshark: This is the command-line equivalent of Wireshark, offering similar functionality for scripting and automation in network analysis tasks.
-# Day 2: Tools for Man-in-the-Middle (MITM) Attacks
+## Day 2: Tools for Man-in-the-Middle (MITM) Attacks
 3. Bettercap (MITM)
 
 Description: Bettercap is a comprehensive MITM framework that facilitates various network attacks, including ARP spoofing, DNS spoofing, HTTP/HTTPS interception, and SSL stripping.
@@ -305,7 +305,7 @@ Description: HTTP traffic interception involves capturing and analyzing unencryp
 Additional Information:
 Tools: Fiddler and Burp Suite are popular tools used for intercepting HTTP traffic, allowing security professionals to inspect requests and responses, manipulate data, and identify security vulnerabilities.
 Usage: These tools are crucial for web application security testing, enabling testers to identify and exploit security flaws such as insecure transmissions, session hijacking, and injection attacks.
-# Day 3: Techniques for Wireless Security
+## Day 3: Techniques for Wireless Security
 5. ARP Poisoning
 
 Description: ARP poisoning (or ARP spoofing) is a technique used to intercept network traffic by sending falsified ARP messages to associate the attacker's MAC address with the IP address of another device on the network.
@@ -319,7 +319,7 @@ Description: Fiddler is a web debugging proxy tool that logs HTTP and HTTPS traf
 Additional Information:
 Features: It provides a graphical interface for capturing, inspecting, and modifying web traffic, making it suitable for debugging web applications, analyzing API calls, and identifying security vulnerabilities.
 Usage: Security professionals use Fiddler for performing security assessments, testing web application security controls, and troubleshooting issues related to web traffic and HTTP/HTTPS protocols.
-# Day 4: Tools for Website Security
+## Day 4: Tools for Website Security
 7. HTTPS Plugin for Browsers
 
 Description: HTTPS plugins for browsers enhance security by enforcing HTTPS connections and identifying insecure HTTP connections that may expose sensitive data to eavesdropping and interception.
@@ -333,7 +333,7 @@ Description: Nmap is a versatile network scanning tool that includes capabilitie
 Additional Information:
 Detection Techniques: Nmap can detect popular sniffing tools by analyzing network traffic patterns, identifying open ports associated with packet capture devices, and detecting anomalies in network communications.
 Usage: Security administrators and penetration testers use Nmap to perform vulnerability assessments, network inventory, and intrusion detection activities, including identifying potential threats posed by unauthorized network sniffing activities.
-# Day 5: Wireless Network Security Tools
+## Day 5: Wireless Network Security Tools
 9. WiFi Hacking
 
 Description: WiFi hacking tools encompass a range of utilities and scripts used to exploit vulnerabilities in wireless networks, aiming to gain unauthorized access to network resources or compromise network security.
@@ -354,7 +354,7 @@ Description: Wifite is an automated wireless auditing tool that simplifies the p
 Additional Information:
 Automation: Wifite automates the scanning, targeting, and exploitation of WEP, WPA, and WPA2 encrypted networks by utilizing efficient attack methods and techniques.
 Usage: Security professionals use Wifite for conducting rapid WiFi security assessments, capturing handshakes, and performing dictionary or bruteforce attacks against weak WiFi passwords to highlight vulnerabilities and recommend security improvements.
-# Day 6: Techniques for Web Application Security
+## Day 6: Techniques for Web Application Security
 12. SQL Injection
 
 Description: SQL injection is a web security vulnerability that allows attackers to interfere with the queries executed on a web application's database by injecting malicious SQL code into input fields.
@@ -368,7 +368,7 @@ Description: HTML injection involves inserting malicious HTML code into web page
 Additional Information:
 Risks: HTML injection vulnerabilities, also known as cross-site scripting (XSS) flaws, can be exploited to steal session cookies, deface websites, redirect users to malicious sites, or launch phishing attacks.
 Detection and Mitigation: Security professionals use automated scanners and manual testing techniques to identify and remediate HTML injection vulnerabilities, ensuring web applications are resilient against client-side security threats.
-# References
+## References
 * Wireshark: https://www.wireshark.org/
 * Bettercap: https://www.bettercap.org/
 * Fiddler: https://www.telerik.com/fiddler
